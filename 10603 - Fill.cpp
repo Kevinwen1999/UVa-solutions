@@ -1,6 +1,3 @@
-
-// Didn't get AC on UVa but work for debugging data. Don't know the reason yet
-
 #include <iostream>
 #include <algorithm>
 #include <utility>
