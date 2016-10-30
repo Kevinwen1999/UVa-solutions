@@ -29,9 +29,9 @@ void spfa(int st, int dist[],bool done[], vector < pair <int,int> > adj[] )
             if (dist[cur]+node.second<dist[node.first])
             {
                 dist[node.first] = dist[cur]+node.second;
-                if (!done[node.second])
+                if (!done[node.first])
                 {
-                    done[node.second] = true;
+                    done[node.first] = true;
                     buff.push(node.first);
                 }
             }
